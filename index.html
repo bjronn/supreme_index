@@ -1,0 +1,240 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <link rel="canonical" href="Put your link here">
+    <meta name="robots" content="index, follow">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="Put Your Website Name Here with @">
+    <meta name="twitter:title" content="Put Your Article Title Here">
+    <meta name="twitter:description" content="Put Your Article Description Here.">
+    <meta name="twitter:image" content="Put Your Article Image Here, Cannot webp file">
+    <meta name="twitter:image:alt" content="Put Your Article Title Here">
+    <meta name="author" content="Put Your Website Name Here">
+    <title>Put Your Article Title Here</title>
+    <meta name="description" content="Put Your Article Description Here.">
+    <meta name="keywords" content="put your focus keywords here">
+    <meta property="og:url" content="Put your link here"> 
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Put Your Article Title Here">
+    <meta property="og:image" content="Put Your Article Image Here, Cannot webp file">
+    <meta property="og:description" content="Put Your Article Description Here.">
+    <meta property="og:image:alt" content="Put Your Article Title Here">
+
+    <!-- don't edit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+        :root {
+            --max-width:1080px;
+            --main-color:#151515;
+            --second-color:#72a200;
+            --third-color:#3d3b3e;
+            --fourth-color:#e2c360;
+            --basic-color:#f1f1f1;
+            --radius-15:15px;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #000;
+            background-color: #000000;
+            background-image: linear-gradient(to top, #000000 0%, #414141 74%);
+            
+        }
+        .container_global {
+            max-width: var(--max-width);
+            margin: 0 auto; 
+        }
+        .container_content {
+            border-radius: var(--radius-15);
+            padding: 15px;
+            background-color: var(--main-color);
+        }
+        .navigation_head {
+            padding: 10px;
+        }
+        .img_logo amp-img{
+            max-width: 120px;
+            margin: 0 auto;
+        }
+        #nav {
+            position:sticky;
+            top:0;
+            z-index: 999;
+            background-color: var(--main-color);
+            border-bottom:2px solid #3d3b3e;
+        }
+        .banner amp-img{
+            border: none;
+            border-radius: var(--radius-15);
+        }
+
+        .btn_gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap:10px
+        }
+
+        .btn_gallery>.btn {
+            background: #f3dd7f;
+            background: linear-gradient(to bottom,#f3dd7f 0%,#b88416 100%);
+            margin: 10px 0;
+            padding: 12px 45px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: all 0.5s;
+            background-size: 200% auto;
+            text-decoration: none;
+            color: #fff;
+            letter-spacing: 2px;
+            border-radius: var(--radius-15)
+        }
+        .btn:hover {
+            transition: all 0.5s;
+            background: #f3dd7f;
+            background: linear-gradient(to bottom,#b88416 0%,#f3dd7f 100%);
+        }
+        .btn_gallery>.btn:last-child {
+            background-color: #b31217;
+            background-image: linear-gradient(to bottom,#e52d27 0,#b31217 100%);
+            margin: 10px 0;
+            padding: 12px 45px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: all 0.5s;
+            background-size: 200% auto;
+            text-decoration: none;
+            color: #fff;
+            letter-spacing: 2px;
+            border-radius: var(--radius-15)
+        }
+        .btn_gallery>.btn:last-child:hover {
+            transition: all 0.5s;
+            background-color: #b31217;
+            background-image:linear-gradient(to bottom,#b31217 0,#e52d27 100%)
+        }
+        .start_seo {
+            color: var(--basic-color);
+        }
+        .fix_footer_bottom {
+            display: none;
+        }
+        .footer_text {
+            text-align: center;
+        }
+
+        @media (max-width:800px) {
+            .container_global {
+                padding: 0 5px;
+            }
+            .fx_footer {
+                padding-bottom:45pt
+            }   
+            .fix_footer_bottom {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                align-items: center;
+                z-index: 0
+            }
+            .fix_footer_bottom>.btn-mbl {
+                background: #f3dd7f;
+                background: linear-gradient(to bottom,#f3dd7f 0%,#b88416 100%);
+                padding: 12px 45px;
+                text-align: center;
+                font-weight: bold;
+                text-transform: uppercase;
+                transition: all 0.5s;
+                background-size: 200% auto;
+                text-decoration: none;
+                color: #fff;
+                letter-spacing: 2px;
+            }
+            .btn:hover {
+                transition: all 0.5s;
+                background-image: linear-gradient(157deg,#3d3b3e 0,#72a200 74%)
+            }
+            .fix_footer_bottom>.btn-mbl:last-child {
+                background-color: #b31217;
+                background-image: linear-gradient(to bottom,#e52d27 0,#b31217 100%);
+                padding: 12px 45px;
+                text-align: center;
+                font-weight: bold;
+                text-transform: uppercase;
+                transition: all 0.5s;
+                background-size: 200% auto;
+                text-decoration: none;
+                color: #fff;
+                letter-spacing: 2px
+            }
+            .fix_footer_bottom>.btn-mbl:last-child:hover {
+                transition: all 0.5s;
+                background-image: linear-gradient(157deg,#F2A65A 0,#772F1A 74%)
+            }
+        }
+    </style>
+<!-- end -->
+
+</head>
+  <body>
+    <header id="nav">
+        <div class="navigation_head">
+            <div class="img_logo">
+                <amp-img src="/assets/logo_example.png" width="120" height="70" layout="responsive" alt="change logo and change this alt with your brands name"></amp-img>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container_global">
+        <div class="container_content">
+            <div class="banner">
+                <amp-img src="/assets/gajah-imut.jpg" width="800" height="450" layout="responsive" alt="change image and change this alt with your Article title"></amp-img>
+            </div>
+
+            <div class="btn_gallery">
+                <a href="Insert Link" target="_blank" class="btn">Login</a>
+                <a href="Insert Link" target="_blank" class="btn">Daftar</a>
+            </div>
+
+            <div class="start_seo">
+                <h1>Put Your Article Title Here</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <h2>Where does it come from?</h2>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                <ul>
+                    <li>contoh list</li>
+                    <li>contoh list</li>
+                    <li>contoh list</li>
+                    <li>contoh list</li>
+                    <li>contoh list</li>
+                </ul>
+                <h3>Test Kata header 3</h3>
+                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            </div>
+        </div>
+    
+
+        <div class="fx_footer">
+            <div class="start_seo">
+                <div class="footer_text">
+                    <p>Your Brand name</p>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="fix_footer_bottom">
+    <a href="Insert Link" target="_blank" class="btn-mbl">Login</a>
+    <a href="Insert Link" target="_blank" class="btn-mbl">Daftar</a>
+</div>
+
+  </body>
+</html>
